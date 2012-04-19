@@ -1,0 +1,20 @@
+name: LinkSender
+main: ncc.ls.Main
+author: Dale Martin Watson
+website: http://nextcraft.ru
+version: 0.0.1
+description: Send link to client.
+commands:
+    lsend:
+        description: Send link to all.
+        usage: /lsend http://nextcraft.ru
+permissions:
+    ls.*:
+        description: Allows you to use all the functions.
+        default: op
+    ls.send:
+        description: Allows you to send link to all users.
+        default: op
+    ls.create:
+        description: Allows you to create sign.
+        default: op
